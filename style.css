@@ -51,6 +51,7 @@ h1{
     font-weight: bold;
     color: #FFFFFF;
     border: none;
+    transition: 1s all;
 }
 .botonuno{
     background: #01469B;
@@ -62,6 +63,9 @@ h1{
 }
 
 .botones button:active{
-    transition: 1s;
     font-size: 1.5em;
+}
+
+.botones button:hover{
+    box-shadow: 2px 2px 5px 2px #101823;
 }
