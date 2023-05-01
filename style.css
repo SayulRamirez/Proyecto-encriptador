@@ -2,8 +2,18 @@ body{
     background: #D3FBF2;
     font-family: 'Red Hat Display', sans-serif;
 }
-.principal{
+
+header{
     width: 70%;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.principal{
+    width: 60%;
 }
 
 h1{
@@ -68,4 +78,16 @@ h1{
 
 .botones button:hover{
     box-shadow: 2px 2px 5px 2px #101823;
+}
+
+.area-salida{
+    width: 25%;
+    margin: 0 2.5% 0 2.5%;
+}
+
+.area-salida textarea{
+    width: 100%;
+    font-size: 2em;
+    resize: none;
+    background: #FDF2FA;
 }
