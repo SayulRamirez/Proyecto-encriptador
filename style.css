@@ -1,0 +1,22 @@
+body{
+    background: #D3FBF2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1{
+    width: 58%;
+    margin: 1em 2em;
+    padding: 1em;
+}
+
+.area-ingreso{
+    width: 50%;
+    margin-left: 12%;
+    border: none;
+    background: #D3FBF2;
+    font-size: 2em;
+}
+
+.area-ingreso:focus{
+    outline: none;
+}
