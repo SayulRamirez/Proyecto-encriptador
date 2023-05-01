@@ -12,11 +12,23 @@ h1{
 .area-ingreso{
     width: 50%;
     margin-left: 12%;
-    border: none;
+    margin-bottom: 2%;
+    /*border: none;*/
     background: #D3FBF2;
     font-size: 2em;
+    resize: none;
 }
 
 .area-ingreso:focus{
     outline: none;
+}
+
+.requisito:before{
+    content: "\2757 ";
+}
+
+.requisito{
+    margin-left: 12%;
+    font-size: 0.8em;
+    width: auto;
 }
