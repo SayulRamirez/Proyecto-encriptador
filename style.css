@@ -13,7 +13,7 @@ header{
 }
 
 .principal{
-    width: 60%;
+    width: 65%;
 }
 
 h1{
@@ -32,7 +32,7 @@ h1{
     resize: none;
 }
 
-.area-ingreso:focus{
+textarea:focus{
     outline: none;
 }
 
@@ -53,11 +53,10 @@ h1{
     padding: 1%;
 }
 
-.botones button{
+button{
     font-size: 1em;
     padding: 1.5%;
     border-radius: 10px;
-    width: 40%;
     font-weight: bold;
     color: #FFFFFF;
     border: none;
@@ -66,28 +65,62 @@ h1{
 .botonuno{
     background: #01469B;
     margin-right: 5%;
+    width: 40%;
+
 }
 
 .botondos{
     background: #1D81FC;
+    width: 40%;
+
 }
 
-.botones button:active{
+button:active{
     font-size: 1.5em;
 }
 
-.botones button:hover{
+button:hover{
     box-shadow: 2px 2px 5px 2px #101823;
 }
 
 .area-salida{
+    text-align: center;
     width: 25%;
     margin: 0 2.5% 0 2.5%;
+    background: #FDF2FA;
+    border-radius: 17px;
+    position: absolute;
+    top: 1em;
+    right: 5%;
+    height: 80%;
+
 }
 
 .area-salida textarea{
-    width: 100%;
-    font-size: 2em;
+    font-size: 1em;
     resize: none;
     background: #FDF2FA;
+    margin: 2% auto 0 auto;
+    width: 90%;
+    border: none;
+}
+
+.area-salida img{
+    width: 60%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1em;
+    margin: .7em;
+}
+
+p{
+    font-size: 0.7em;
+}
+
+.botontres{
+    background: #3757F7;
+    width: 70%;
+    margin: 1.5em;
 }
