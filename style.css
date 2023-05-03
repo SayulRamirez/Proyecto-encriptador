@@ -4,7 +4,24 @@ body{
 }
 
 header{
-    width: 70%;
+    width: auto;
+}
+
+.caja{
+    width: 65%;
+    display: flex;
+}
+
+header img{
+    width: auto;
+    margin: 1em 2em;
+    padding: 1em;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: auto;
+    font-style: oblique;
 }
 
 .contenedor{
@@ -14,12 +31,6 @@ header{
 
 .principal{
     width: 65%;
-}
-
-h1{
-    width: 58%;
-    margin: 1em 2em;
-    padding: 1em;
 }
 
 .area-ingreso{
@@ -92,7 +103,7 @@ button:hover{
     position: absolute;
     top: 1em;
     right: 5%;
-    height: 80%;
+    height: auto;
 
 }
 
@@ -126,6 +137,24 @@ p{
 }
 
 footer{
-    background: url(imagenes/fondo-footer.jpg);
-    border: 1px solid black;
+    width: auto;
+    background: #8C98BE;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+footer p{
+    margin: 0.8em;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+footer a:hover{
+    color: #710101;
 }
