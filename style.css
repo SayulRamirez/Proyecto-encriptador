@@ -124,3 +124,8 @@ p{
     width: 70%;
     margin: 1.5em;
 }
+
+footer{
+    background: url(imagenes/fondo-footer.jpg);
+    border: 1px solid black;
+}
