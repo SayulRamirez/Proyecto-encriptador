@@ -26,7 +26,6 @@ h1{
 
 .contenedor{
     width: 100%;
-    display: flex;
 }
 
 .principal{
@@ -58,20 +57,21 @@ textarea:focus{
 }
 
 .botones{
-    width: 60%;
-    margin: 2% auto;
+    width: 500px;
+    margin: 17px auto;
     text-align: center;
     padding: 1%;
 }
 
 button{
-    font-size: 1em;
+    font-size: 17px;
     padding: 1.5%;
     border-radius: 10px;
     font-weight: bold;
     color: #FFFFFF;
     border: none;
     transition: 1s all;
+    cursor: pointer;
 }
 .botonuno{
     background: #01469B;
@@ -87,11 +87,11 @@ button{
 }
 
 button:active{
-    font-size: 1.5em;
+    transform: scale(1.10);
 }
 
 button:hover{
-    box-shadow: 2px 2px 5px 2px #101823;
+    box-shadow: 2px 2px 5px 1px #101823;
 }
 
 .area-salida{
@@ -152,7 +152,7 @@ footer p{
 footer a{
     text-decoration: none;
     color: black;
-    transition: 1s;
+    transition: 1s all;
 }
 
 footer a:hover{
