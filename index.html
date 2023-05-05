@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-    <script src="encriptador.js" defer></script>
+    <script src="encriptador.js" defer></script> <!--defer se usa para que primero carge la página y posterior los archivos javaScript-->
 </head>
 
 <body>
@@ -33,22 +33,23 @@
 
                 <div class="botones">
                     <button class="botonuno" id="encriptar">Encriptar</button>
-                    <button class="botondos">Desencriptar</button>
+                    <button class="botondos" id="desEncriptar">Desencriptar</button>
                 </div>
 
             </div>
         </div>
 
         <div class="area-salida">
-            <textarea name="texto de salida" id="" cols="20" rows="13" readonly></textarea>
+            <textarea name="texto de salida" id="salida" cols="20" rows="13" readonly></textarea>
 
+            <div id="ocultar">
             <img src="./imagenes/Muñeco.png" alt="inspección de diamante">
 
             <h2>Ningún mensaje fue encontrado.</h2>
 
             <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-
-            <button class="botontres">Copiar</button>
+        </div>
+            <button class="botontres" id="copiar">Copiar</button>
         </div>
 
     </main>

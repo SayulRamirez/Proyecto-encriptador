@@ -134,6 +134,7 @@ p{
     background: #3757F7;
     width: 70%;
     margin: 1.5em;
+    visibility: hidden;
 }
 
 footer{
