@@ -40,6 +40,7 @@ h1{
     background: #D3FBF2;
     font-size: 2em;
     resize: none;
+    text-transform: lowercase;
 }
 
 textarea:focus{
