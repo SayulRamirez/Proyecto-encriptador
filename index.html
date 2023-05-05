@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-    <script src="encriptador.js"></script>
+    <script src="encriptador.js" defer></script>
 </head>
 
 <body>
@@ -25,14 +25,14 @@
             <div class="principal">
 
                 <section>
-                    <textarea class="area-ingreso" name="texto ingresado" id="" cols="31" rows="10"
+                    <textarea class="area-ingreso" name="texto ingresado" id="ingreso" cols="31" rows="10"
                         placeholder="Ingrese el texto aquí"></textarea>
                 </section>
 
                 <label class="requisito">Por favor solo introduce letras minusculas y sin acentos</label>
 
                 <div class="botones">
-                    <button class="botonuno">Encriptar</button>
+                    <button class="botonuno" id="encriptar">Encriptar</button>
                     <button class="botondos">Desencriptar</button>
                 </div>
 
