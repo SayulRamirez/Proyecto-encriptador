@@ -4,46 +4,44 @@ body{
 }
 
 header{
-    width: auto;
+    padding: 1rem;
 }
 
-.caja{
-    width: 65%;
-    display: flex;
-}
-
-header img{
-    width: auto;
-    margin: 1em 2em;
-    padding: 1em;
-}
 h1{
-    font-size: 2em;
+    display: inline-block;
+    font-size: 2rem;
     font-weight: bold;
-    margin: auto;
-    font-style: oblique;
+    text-transform: uppercase;
+    margin-left: 13%;
 }
 
 .contenedor{
-    width: 100%;
+    width: auto;
+    padding: 0.5rem;
+    display: flex;
 }
-
 .principal{
-    width: 65%;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    width: 60%;
+    text-align: center;
 }
 
 .area-ingreso{
-    width: 80%;
-    margin-left: 12%;
-    margin-bottom: 2%;
+    width: 90%;
     border: none;
-    background: #D3FBF2;
     font-size: 2em;
     resize: none;
+    margin: 0 auto 1rem;
+    background: #D3FBF2;
 }
 
-textarea:focus{
-    outline: none;
+.area-salida{
+    width: 30%;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    text-align: center;  
+    background: #FDF2FA;
 }
 
 .requisito:before{
@@ -51,20 +49,17 @@ textarea:focus{
 }
 
 .requisito{
-    margin-left: 12%;
-    font-size: 0.8em;
-    width: auto;
+    padding: 1rem;
+    font-size: 0.8rem;
+
 }
 
 .botones{
-    width: 500px;
-    margin: 17px auto;
-    text-align: center;
+    margin: 1rem auto;
     padding: 1%;
 }
 
-button{
-    font-size: 17px;
+ button{
     padding: 1.5%;
     border-radius: 10px;
     font-weight: bold;
@@ -72,18 +67,16 @@ button{
     border: none;
     transition: 1s all;
     cursor: pointer;
+    width: 30%;
 }
+
 .botonuno{
     background: #01469B;
     margin-right: 5%;
-    width: 40%;
-
 }
 
 .botondos{
     background: #1D81FC;
-    width: 40%;
-
 }
 
 button:active{
@@ -92,23 +85,9 @@ button:active{
 
 button:hover{
     box-shadow: 2px 2px 5px 1px #101823;
-}
-
-.area-salida{
-    text-align: center;
-    width: 25%;
-    margin: 0 2.5% 0 2.5%;
-    background: #FDF2FA;
-    border-radius: 17px;
-    position: absolute;
-    top: 1em;
-    right: 5%;
-    height: auto;
-
-}
+} 
 
 .area-salida textarea{
-    font-size: 1em;
     resize: none;
     background: #FDF2FA;
     margin: 2% auto 0 auto;
@@ -116,38 +95,40 @@ button:hover{
     border: none;
 }
 
+textarea:focus{
+    outline: none;
+}
+
 .area-salida img{
-    width: 60%;
+    width: 50%;
 }
 
 h2{
     font-weight: bold;
-    font-size: 1em;
     margin: .7em;
+    font-size: 1.2rem;
 }
 
-p{
-    font-size: 0.7em;
+.area-salida p{
+    font-size: 0.8rem;
 }
 
 .botontres{
     background: #3757F7;
     width: 70%;
     margin: 1.5em;
-    visibility: hidden;
-}
+    /*    visibility: hidden;*/
+} 
 
 footer{
-    width: auto;
-    background: #8C98BE;
+    background: #1D81FC;
     text-align: center;
-    font-size: 1em;
-    padding: 9px;
+    padding: 0.4rem;
 }
 
 footer p{
-    margin: 0.8em;
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
 footer a{
