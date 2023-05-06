@@ -6,8 +6,8 @@ function extraertexto() {
     document.getElementById("ingreso").value = ""; //Déspues de seleccionar los datos "resetea" el campo
 }
 
-function estaEnMinusculas(cadena) {
-    return cadena === cadena.toLowerCase();
+function estaEnMinusculas(cadena) { //La funcion devuelve true si la cadena no contien mayusculas de lo contrario 
+    return cadena === cadena.toLowerCase(); //devuelve false
 }
 
 var botonEncriptar = document.getElementById("encriptar"); //Seleccionamos el boton
@@ -21,8 +21,8 @@ function codificar() {
 
     if (estaEnMinusculas(textoEntrada)) {
 
-        const regex = /^[a-zA-Z0-9_\s]*$/;
-        var tieneTildes = !regex.test(textoEntrada);
+        const regex = /^[a-zA-Z0-9_\s]*$/;  //Con ayuda de la expresion regular verificamos si la cadena tiene caracteres especiales
+        var tieneTildes = !regex.test(textoEntrada);  //Devuelve false si no tiene caracteres especiales de lo contrario devuelve true
 
         if (tieneTildes == false) {
             var cadenaCodificada = textoEntrada.replaceAll("e", "enter");
@@ -83,10 +83,10 @@ var textoCopiado;
 function copiar() {
     textoCopiado = document.getElementById("salida");
 
-    textoCopiado.select();
-    textoCopiado.setSelectionRange(0, 99999);
+    textoCopiado.select();  //Selecciona lo contenido en el contenedor
+    textoCopiado.setSelectionRange(0, 99999); //Rango de caracteres que puede copiar es mas para los dipositivos moviles
 
-    navigator.clipboard.writeText(textoCopiado.value);
+    navigator.clipboard.writeText(textoCopiado.value); //Guarda el texto copiado del contenedor en el portapapeles 
 
     document.getElementById("salida").value = "";
 }
