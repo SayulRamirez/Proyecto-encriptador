@@ -6,6 +6,10 @@ function extraertexto (){
     document.getElementById("ingreso").value = ""; //Déspues de seleccionar los datos "resetea" el campo
 }
 
+function estaEnMinusculas(cadena) {
+    return cadena === cadena.toLowerCase();
+  }
+
 var botonEncriptar = document.getElementById("encriptar"); //Seleccionamos el boton
 botonEncriptar.onclick = codificar; //Lo asociamos con un evento "onclick"
 
@@ -13,8 +17,10 @@ var botonCopiar = document.getElementById("copiar");
 var imagen = document.getElementById("ocultar");
 
 function codificar (evento){
-
     extraertexto();
+
+    if (estaEnMinusculas(textoEntrada)){
+
     var cadenaCodificada = textoEntrada.replaceAll("e", "enter");
     cadenaCodificada = cadenaCodificada.replaceAll("i", "imes");
     cadenaCodificada = cadenaCodificada.replaceAll("a", "ai");
@@ -24,6 +30,10 @@ function codificar (evento){
     document.getElementById("salida").value = cadenaCodificada;
     botonCopiar.style.visibility = "visible";
     imagen.style.visibility = "hidden";
+
+    } else {
+        alert("Introduce solo minusculas");
+    }
 
     cadenaCodificada = "";
 }
