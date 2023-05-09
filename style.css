@@ -140,3 +140,14 @@ footer a{
 footer a:hover{
     color: #710101;
 }
+
+@media screen and (max-width: 1280px){
+
+    .contenedor{
+        margin-bottom: 8rem;
+    }
+
+    footer{
+        padding: 1.2rem;
+    }
+}
