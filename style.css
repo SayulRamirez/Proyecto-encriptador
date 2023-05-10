@@ -16,15 +16,23 @@ h1{
 }
 
 .contenedor{
-    width: auto;
-    padding: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    max-width: 1200px;
+    min-height: 95vh;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 .principal{
     padding: 0.5rem;
-    margin: 0.3rem;
-    width: 60%;
     text-align: center;
+    flex-basis: 600px;
+    max-width: 650px;
+    flex-grow: 1;
 }
 
 .area-ingreso{
@@ -37,11 +45,12 @@ h1{
 }
 
 .area-salida{
-    width: 30%;
+    flex-basis: 250px;
+    max-width: 340px;
     padding: 0.2rem;
-    margin: 0.3rem;
-    text-align: center;  
+    text-align: center;
     background: #FDF2FA;
+    flex-grow: 1;
 }
 
 .requisito:before{
@@ -141,24 +150,12 @@ footer a:hover{
     color: #710101;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 600px){
 
-    .contenedor{
-        margin-bottom: 8rem;
+    footer p{
+
+        font-size: 3rem;
+        
     }
 
-    footer{
-        padding: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 1024px){
-
-    .contenedor{
-        margin-bottom: 0;
-    }
-
-    footer{
-        padding: 0.2rem;
-    }
 }
