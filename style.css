@@ -127,7 +127,7 @@ h2{
     background: #3757F7;
     width: 70%;
     margin: 1.5em;
-    /*    visibility: hidden;*/
+    visibility: hidden;
 } 
 
 footer{
@@ -149,14 +149,4 @@ footer a{
 
 footer a:hover{
     color: #710101;
-}
-
-@media screen and (max-width: 600px){
-
-    footer p{
-
-        font-size: 3rem;
-        
-    }
-
 }
