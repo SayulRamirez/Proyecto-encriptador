@@ -42,6 +42,7 @@ h1{
     resize: none;
     margin: 0 auto 1rem;
     background: #D3FBF2;
+    font-size: 2rem;
 }
 
 .area-salida{
@@ -102,7 +103,7 @@ button:hover{
     margin: 2% auto 0 auto;
     width: 90%;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 textarea:focus{
