@@ -20,7 +20,7 @@ h1{
     margin: 0 auto;
     padding: 0.5rem 0;
     max-width: 1200px;
-    min-height: 95vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -46,7 +46,7 @@ h1{
 
 .area-salida{
     flex-basis: 250px;
-    max-width: 340px;
+    max-width: 600px;
     padding: 0.2rem;
     text-align: center;
     background: #FDF2FA;
