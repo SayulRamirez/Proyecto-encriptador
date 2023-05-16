@@ -140,12 +140,17 @@ footer{
 footer p{
     font-weight: bold;
     font-size: 0.8rem;
+    margin: 0.2rem;
 }
 
 footer a{
     text-decoration: none;
     color: black;
     transition: 1s all;
+}
+
+footer img{
+    width: 0.8rem;
 }
 
 footer a:hover{
